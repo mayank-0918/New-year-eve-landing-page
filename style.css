@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.main{
+    
+}
+
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.nav a:hover{
+    padding: 2px 8px;
+    
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    font-weight: 700;
+    
+}
+
+.line1{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    margin-top: 13px;
+}
+
+.frontpage{
+    height: 600px;
+    width: 100%;
+    padding: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.frontpage .left{
+    height: 100%;
+    width: 45%;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url('https://plus.unsplash.com/premium_photo-1665423290662-e9886f0aaeb3?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.frontpage .left h4{
+    font-size: 40px;
+    font-weight: 200;
+    position: absolute;
+    bottom: 10%;
+}
+
+
+.frontpage .left i{
+    position: absolute;
+    font-size: 70px;
+    left: -0.1%;
+}
+
+.frontpage .right{
+    height: 100%;
+    width: 45%;
+    
+}
+.frontpage .right .top button {
+    color: white;
+    background-color: black;
+    border-color: azure;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: larger;
+}
+.frontpage .right .top h2{
+    position: absolute;
+    top: 17%;
+    left: 95%;
+    font-size: largest;
+    font-weight: 900;
+}
+
+
+
+.frontpage .right .top h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 50px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.frontpage .right .top h1 button{
+    font-size: 35px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.frontpage .right .top p{
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.frontpage h3{
+    position: absolute;
+    left: 42%;
+    top:60%;
+    font-size: 35px;
+    letter-spacing: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.secondpage {
+     height: 600px;
+     width: 100%;
+     /* background-color: bisque; */
+     padding:40px 80px;
+     display: flex;
+     gap: 20px;
+     margin-top: 60px;
+}
+.secondpage .first{
+    height: 100%;
+    width: 25%;
+    /* background-color: aqua; */
+    
+    
+}
+.secondpage .first img{
+    height:70%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.secondpage .first .bio{
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 70px;
+    padding: 10px 25px;
+    margin-top: 30px;
+    
+    
+}
+.secondpage .first .bio i{
+    font-size: 30px;
+}
+
+.secondpage .first .bio h5{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.secondpage .first .bio h3{
+    position: absolute;
+    left:25%;
+    margin-top: -75px;
+}
+
+.secondpage .first .bio h4{
+    position: absolute;
+    left:49%;
+    font-size: 20px;
+    margin-top: -75px;
+}
+
+.secondpage .first .bio h2{
+    position: absolute;
+    left:54%;
+    margin-top: -450px;
+}
+
+.secondpage h1{
+    position: absolute;
+    rotate: 90deg;
+    left: 62%;
+    margin-top: 200px;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.secondpage h1 span{
+    font-weight: 700;
+}
+
+.secondpage .bar{
+    width: 35px;
+    height: 480px;
+    border-radius: 20px;
+    background: white;
+    position: absolute;
+    left: 85%;
+}
+
+.secondpage .bar i{
+    color: black;
+    font-size: 30px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.secondpage .bar1{
+    width: 35px;
+    height: 50%;
+    border-radius: 20px;
+    background: black;
+    border: 1px solid white;
+    position: absolute;
+    left: 92%;
+}
+.secondpage .bar1 i{
+    color: white;
+    font-size: 25px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.secondpage button{
+    height: 40px;
+    width: 40px;
+    border-color: white;
+    background-color: black;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 92%;
+    top: 172%;
+}
+.secondpage button i{
+    color: white;
+    font-size: 20px;
+
+}
+
+.secondpage h6 img{
+    position: absolute;
+    left: -1%;
+    top: 90%;
+}
+
+.thirdpage {
+    height: 600px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    padding-top: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.thirdpage .title{
+    width: 50%;
+    line-height: 1.5;
+    position: absolute;
+    left: 0;
+    margin-top: -130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.thirdpage .title h6{
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    word-spacing: 30px;
+}
+
+.thirdpage .title1 {
+    position: absolute;
+    left: 1.70%;
+    margin-top: 170px;
+}
+.thirdpage .title1 h3{
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+.thirdpage .title1 h3 span{
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.thirdpage .arrow{
+    position: absolute;
+    font-size: 100px;
+    left: 42%;
+    margin-top: 100px;
+}
+
+.thirdpage .digit{
+    position: absolute;
+    left: 43%;
+    margin-top: 420px;
+}
+.thirdpage .design {
+    font-size: 75px;
+    position: absolute;
+    left: 90%;
+    margin-top: -70px;
+}
+
+.thirdpage .div{
+      
+    height: 400px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.thirdpage .div .left{
+    width: 45%;
+    height: 400px;
+}
+.thirdpage .div .left img{
+    height: 100%;
+    width: 100%;
+}
+
+.thirdpage .div .right{
+    width:45%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.thirdpage .div .right h1{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.thirdpage .div .right h1 button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: white;
+    color: white;
+    /* background-color: rgb(221, 167, 101); */
+    margin-right: 20px;
+}
+.thirdpage .div .right h1 button i{
+    font-size: 25px;
+    
+}
+
+.thirdpage .div .right h1 span{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.thirdpage .div .right p{
+    margin-top: 50px;
+    font-size: larger;
+}
+
+.thirdpage .div .right h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 70px;
+}
+.thirdpage .div .right h2 span{
+    font-weight: 600;
+}
+
+.thirdpage .div .right button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    border-color: white;
+    position: absolute;
+    left: 90%;
+    margin-top: -37px;
+
+}
+.thirdpage .div .right button i{
+    font-size: 25px;
+}
+
+.bottom{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .left h3{
+    font-weight: 400;
+}
+.bottom .right h2 span{
+    font-weight: 400;
+}
